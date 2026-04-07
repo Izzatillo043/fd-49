@@ -7,13 +7,15 @@
 }
 
 body{
-  width: 1521px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center ;
   align-items: center;
   margin: 0 auto;
+  overflow-x: hidden;
 }
+
 
 .container{
 width: 100%;
@@ -331,6 +333,138 @@ font-weight: bold;
   color: #fff;
   border-color: #fff;
 }
+#bars{
+  display: none;
+}
 .frilans button:hover{
   background-color: #a79f9f;
 }
+.hero img{
+  max-width: 100%;
+  height: auto;
+}
+
+.barss{
+  width: 270px;
+  height: 150px;
+  background-color: #2C353E;
+  display: none;
+ 
+}
+.barss.active{
+  display: block;
+}
+.barss ul{
+  flex-direction: column  ;
+  gap: 5px;
+  color: #fff;
+}
+.btn{
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  border: none;
+  
+}
+.fa-bars{
+  font-size: 20px;
+}
+
+
+@media (max-width: 470px) {
+
+body{
+width: 100%;
+padding: 0 10px;
+    
+}
+#bars{
+display: flex;
+}
+
+nav{
+    
+gap: 20px;
+}
+
+nav ul{
+flex-direction: column;
+gap: 15px;
+align-items: center;
+display: none;
+}
+
+  
+.header{
+flex-direction: column;
+text-align: center;
+gap: 20px;
+}
+.div2{
+gap: 40px;
+}
+
+.conteent{
+flex-wrap: wrap;
+}
+
+.make h1{
+font-size: 28px;
+}
+
+.make p{
+font-size: 16px;
+}
+
+.boxes{
+flex-direction: column;
+gap: 30px;
+}
+
+.div2{
+flex-direction: column;
+gap: 40px;
+margin-top: 100px;
+text-align: center;
+}
+
+.sect2{
+width: 100%;
+height: auto;
+padding: 50px 10px;
+background-size: cover;
+}
+
+.boxess{
+flex-direction: column;
+align-items: center;
+}
+
+.boks{
+width: 100%;
+}
+
+.ipsum{
+width: 100%;
+padding: 100px 10px;
+background-size: cover;
+}
+
+.sect6{
+width: 100%;
+}
+
+.conteent{
+flex-direction: column;
+gap: 30px;
+padding: 50px 10px;
+}
+
+.frilans{
+width: 100%;
+flex-direction: column;
+text-align: center;
+}
+
+}
+
